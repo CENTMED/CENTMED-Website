@@ -12,6 +12,41 @@ const Publications = () => {
     const publications = {
         journal: [
             {
+                title: "Passive intestinal microbiome sampling using an ingestible device with tortuous lattices.",
+                authors: "Hanan Mohammed, Sadaf Usmani, Brij Bhushan, Anique Ahmad, Oraib Al-Ketan, Ahmed A. Shibl, Maylis Boitet, Devjoy Dev, Heba Naser, Aashish R. Jha, Khalil B. Ramadi",
+                journal: "Cell Press",
+                year: 2025,
+                doi: "https://doi.org/10.1016/j.device.2025.100904",
+            },
+            {
+                title: "Investigating the mechanism of ion concentration polarization within nanofluidic hydrogel membranes: experiment and simulation",
+                authors: "Hiba Aljayyousi, Jongmin Kim, Serdal Kirmizialtin, and Yong-Ak Song",
+                journal: "Advanced Materials Interfaces",
+                year: 2025,
+                doi: "https://doi.org/10.1002/admi.202401018",
+            },
+            {
+                title: "Wirelessly powered ingestible capsule for optical stimulation of the gastrointestinal tract in rodents",
+                authors: "Mohamed Elsherif, Rawan Badr El-Din, Zhansaya Makhambetova, Heba Naser, Maylis Boitet, Rahul Singh, Keonghwan Oh, Revathi Sukesan, Sohmyung Ha, and Khalil B. Ramadi",
+                journal: "Advanced Material Technologies",
+                year: 2025,
+                doi: "https://doi.org/10.1002/admt.202500957",
+            },
+            {
+                title: "3D-printed optogenetic neural probe integrated with microfluidic tube for opsin/drug delivery",
+                authors: "Revathi Sukesan, Mohsin Mohammed, Keonghwan Oh, Malvika Sharma, Dipesh Chaudhury, and Sohmyung Ha",
+                journal: "Scientific Reports ",
+                year: 2025,
+                doi: "https://doi.org/10.1038/s41598-025-13654-4",
+            },
+            {
+                title: "A modular and reconfigurable microfluidic device for culturing spheroids under continuous perfusion",
+                authors: "Hiba Aljayyousi, Sarah Sahloul, Ajymurat Orozaliev, Navajit Baban, Duc-Anh Van, Amani Al Nuairi, Pauline John, Azhar Zam, Piergiorgio Percipalle, and Yong-Ak Song",
+                journal: "APL Bioengineering ",
+                year: 2025,
+                doi: "https://doi.org/10.1063/5.0262536 ",
+            },
+            {
                 title: "MechanoBioCAD: A Generalized Semi-Automated Computational Tool for Mechanobiological Studies",
                 authors: "N. Baban, C. Stubbs, Y.-A. Song",
                 journal: "Lab on a Chip",
