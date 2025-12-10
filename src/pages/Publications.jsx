@@ -97,7 +97,7 @@ const Publications = () => {
                 conference: "IEEE International Solid-State Circuits Conference (ISSCC)",
                 date: "February 15-19, 2026",
                 location: "San Francisco, CA, USA",
-                doi: "https://arxiv.org/abs/2510.13682",
+                doi: "https://ieeexplore.ieee.org/document/11252866",
             },
             {
                 title: "3D-printed Optogenetic Device with a Recording-channel-embedded Waveguide",
