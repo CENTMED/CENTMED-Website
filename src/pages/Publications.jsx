@@ -83,12 +83,37 @@ const Publications = () => {
             },
         ],
         conference: [
-            {
+             {
                 title: "A Modular and Reconfigurable Microfluidic Device for Culturing Spheroids Under Continuous Perfusion",
                 authors: "H. Aljayyousi, S. Sahloul, A. Orozaliev, N. Baban, A. Al Nuairi, P. John, A. Zam, P. Percipalle, Y.-A. Song",
                 conference: "Northeast Bioengineering Conference 2025",
                 date: "April 3-4, 2025",
                 location: "Brooklyn, NY",
+                doi: "", //need link
+            },
+            {
+                title: "A 0.62 μW/sensor 82 fps Time-to-Digital Impedance Measurement IC with Unified Excitation/Readout Front-end for Large-Scale Piezo-Resistive Sensor Array",
+                authors: "Jiayang Li, Qingyu Zhang, Sohmyung Ha, Dai Jiang, Andreas Demosthenous, and Yu Wu",
+                conference: "IEEE International Solid-State Circuits Conference (ISSCC)",
+                date: "February 15-19, 2026",
+                location: "San Francisco, CA, USA",
+                doi: "https://arxiv.org/abs/2510.13682",
+            },
+            {
+                title: "3D-printed Optogenetic Device with a Recording-channel-embedded Waveguide",
+                authors: "Keonghwan Oh and Sohmyung Ha",
+                conference: "International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers)",
+                date: "June 29 - 3, 2025",
+                location: "Orlando, FL, USA",
+                doi: "", //need link
+            },
+            {
+                title: "Sleep Stage Classification with CNN-Transformer-combined Structure Using Single-Channel Raw ECG",
+                authors: "Moogyeom Kim, Seokjae Lee, Sohmyung Ha, Soon-Jae Kweon, and Minji Lee",
+                conference: "47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+                date: "July 14-17, 2025",
+                location: "Copenhagen, Denmark",
+                doi: "", //need link
             },
         ],
     };
