@@ -183,7 +183,7 @@ const newsItems = [
         image: AnUltraLowPowerAmplifierLess,
         link: "https://doi.org/10.1109/TBCAS.2025.3527652",
         excerpt: "Featured in IEEE Transactions on Biomedical Circuits and Systems, this paper by Muhammad Abrar Akram, Aida Aberra, Soon-Jae Kweon, and Prof. Sohmyung Ha introduces an ultra-low-power potentiostat IC that eliminates traditional amplifiers through a digital regulation loop, paving the way for compact and energy-efficient biosensors.",
-        category: "Publication"
+        category: "Publications"
     },
     {
         id: 17,
