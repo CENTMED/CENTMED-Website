@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion"; // Import motion from framer-motion
+import { Link } from "react-router-dom"; // Import for NY Workshop page
+
 import "./Events.css";
 import ScrollProgress from "../components/ScrollProgress.jsx";
 import { CalendarDays, Users, University } from "lucide-react";
@@ -100,6 +102,5 @@ const Events = () => {
         </div>
     );
 };
-
 
 export default Events;
