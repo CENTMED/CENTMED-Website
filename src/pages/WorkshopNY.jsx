@@ -5,7 +5,7 @@ import "./WorkshopNY.css";
 
 import workshopHero from "../assets/workshop_ny_header.png";
 
-const GOOGLE_SHEETS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbw29hc6oFu0reTCDixTq4paFlC3S01Yjrooz3jc-d6aNNIa9vBKWcKFivzzTyFVjPOHEw/exec";
+const GOOGLE_SHEETS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbyzsmS3-hwFBZ7m3PXcFBfQCYcF6k4TqHsORRVaTMILjaAyMp_iy2wGnHP22awOS7xPkA/exec";
 
 const EVENT = {
   slug: "medical-devices-implants-workshop-2026-03-18",
