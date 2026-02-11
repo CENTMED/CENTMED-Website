@@ -28,6 +28,8 @@ import AsynchronousQuadraturePhase from "../assets/Asynchronous Quadrature-Phase
 import AnUltraLowPowerAmplifierLess from "../assets/AnUltraLowPowerAmplifierLess.jpeg";
 import AutomaticSleepStageClassification from "../assets/AutomaticSleepStageClassification.png";
 import A3Dprintedoptogeneticdevice from "../assets/A3Dprintedoptogeneticdevice.jpg";
+import nyHeroImage from "../assets/workshop_ny_header.png"
+
 
 
 const newsItems = [
@@ -156,7 +158,14 @@ const newsItems = [
         subtitle: "A CNN-Transformer hybrid model for accurate sleep stage classification using raw single-channel ECG inputs.",
         image: AutomaticSleepStageClassification,
         link: "https://lnkd.in/dmBMmjhg", //not real link
-    }
+    },
+    {
+        id: 19,
+        title: "Medical Devices and Implants Workshop",
+        subtitle: "An interdisciplinary workshop advancing translational medical devices through microfluidics, modeling, and clinical collaboration, with speakers from with NYU Langone Health, NYU Tandon, NYU Abu Dhabi (NYUAD), Icahn School of Medicine, University of Maine, and University of Michigan",
+        image: nyHeroImage, 
+        link: "/events/medical-devices-implants-workshop-2026-03-18",
+    },
 ];
 
 const Home = () => {
