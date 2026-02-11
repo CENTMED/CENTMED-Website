@@ -82,7 +82,14 @@ const Events = () => {
                             <h2 className="event-title">{event.title}</h2>
                             <p className="event-speaker"><Users size={24} color="var(--purple)" /> {event.speaker}</p>
                             <p className="event-university"><University size={24} color="var(--purple)" /> {event.university}</p>
-                            <p className="event-date"><CalendarDays size={24} color="var(--purple)" /> {event.date}</p>
+                            <p className="event-date"><CalendarDays size={24} color="var(--purple)" /> {event.date}</p> 
+                            {event.detailsLink && (
+                            <div style={{ marginTop: "14px" }}>
+                                <Link to={event.detailsLink} className="section-button">
+                                    View details
+                                </Link>
+                            </div>
+                        )}
                         </div>
                         <img className="event-image" src={event.image} alt={event.speaker} />
                     </motion.div>
@@ -93,5 +100,6 @@ const Events = () => {
         </div>
     );
 };
+
 
 export default Events;
