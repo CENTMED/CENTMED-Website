@@ -161,7 +161,7 @@ const newsItems = [
     },
     {
         id: 19,
-        title: "Medical Devices and Implants Workshop",
+        title: "Medical Device Innovation Workshop",
         subtitle: "An interdisciplinary workshop advancing translational medical devices through microfluidics, modeling, and clinical collaboration, with speakers from with NYU Langone Health, NYU Tandon, NYU Abu Dhabi (NYUAD), Icahn School of Medicine, University of Maine, and University of Michigan",
         image: nyHeroImage, 
         link: "/events/medical-devices-implants-workshop-2026-03-18",
