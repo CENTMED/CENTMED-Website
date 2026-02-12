@@ -15,7 +15,7 @@ import nyHeroImage from "../assets/workshop_ny_header.png"
 const eventData = [
     {
         category: "Workshops",
-        title: "Medical Devices and Implants Workshop",
+        title: "Medical Device Innovation Workshop",
         speaker: "NYU Langone Health + NYU Tandon + NYU Abu Dhabi (NYUAD)",
         date: "March 18, 2026",
         university: "19 Washington Square North, New York",
