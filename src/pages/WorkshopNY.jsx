@@ -190,13 +190,13 @@ const WorkshopNY = () => {
               <li>Iskender Sahin — NYU Tandon</li>
               <li>Rafael Song — NYU Abu Dhabi</li>
               <li>Andreas Hielscher — Department Head of Biomedical Engineering, NYU Tandon</li>
-              <li>Alon Harris — Icahn School of Medicine</li>
+              <li>Sohmunga Ha - NYU Abu Dhabi</li>
               <li>Giovanna Guidoboni — University of Maine</li>
               <li>Manjool Shah — University of Michigan</li>
               <li>Nurbergen Aitmukhanbetov — NYU Abu Dhabi</li>
-              <li>Shy Shoham — Director, Tech4Health Institute, NYU Langone</li>
+              <li>Shy Shoham — Professor of Neroscience and Opthamology, NYU School of Medicine and Tech4Health</li>
               <li>Khalil Ramadi — NYU Abu Dhabi</li>
-              <li>Sohmyung Ha — NYU Abu Dhabi</li>
+              <li>Sefy Paulose Joshi, Assistant Professor of Ophthalmology, NYU Langone</li>
             </ul>
 
             {/* AGENDA (only) */}
@@ -214,16 +214,18 @@ const WorkshopNY = () => {
                 <div>Welcome Remark by Iskender Sahin and Rafael Song</div>
               </div>
               <div className="agenda-row">
-                <div>9:15 - 9:30 AM</div>
-                <div>Introduction of CENTMED, Rafael Song</div>
-              </div>
-              <div className="agenda-row">
-                <div>9:30 - 10:00 AM</div>
-                <div>Andreas Hielscher, Department Head of Biomedical Engineering, NYU Tandon</div>
+                <div>9:15 - 10:00 AM</div>
+                <div>
+                  <div>Andreas Hielscher, Department Head of Biomedical Engineering, NYU Tandon</div>
+                  <strong>Seeing the Invisible: Real-Time Vascular Imaging with Wearable Optical Tomography</strong>
+                </div>
               </div>
               <div className="agenda-row">
                 <div>10:00 - 10:30 AM</div>
-                <div>Alon Harris, Icahn School of Medicine</div>
+                <div>
+                  <div>Sohmunga Ha, NYU Abu Dhabi</div>
+                  <strong>Intra-body power transfer for wearable devices</strong>
+                </div>
               </div>
               <div className="agenda-row">
                 <div>10:30 - 11:00 AM</div>
@@ -231,15 +233,24 @@ const WorkshopNY = () => {
               </div>
               <div className="agenda-row">
                 <div>11:00 - 11:30 AM</div>
-                <div>Giovanna Guidoboni, University of Maine</div>
+                <div>
+                  <div>Giovanna Guidoboni, University of Maine</div>
+                  {/* <div></div> add talk title*/}
+                </div>
               </div>
               <div className="agenda-row">
                 <div>11:30 - 12:00 PM</div>
-                <div>Manjool Shah, University of Michigan</div>
+                <div>
+                  <div>Manjool Shah, University of Michigan</div>
+                  <strong>The GDD Revolution: From Refractory Cases to Primary Care</strong>
+                </div>
               </div>
               <div className="agenda-row">
                 <div>12:00 - 12:30 PM</div>
-                <div>Nurbergen Aitmukhanbetov, NYUAD</div>
+                <div>
+                  <div>Nurbergen Aitmukhanbetov, NYUAD</div>
+                  <strong>Development of a New Minimally Invasive Glaucoma Implant</strong>
+                </div>
               </div>
               <div className="agenda-row">
                 <div>12:30 - 2:00 PM</div>
@@ -247,31 +258,61 @@ const WorkshopNY = () => {
               </div>
               <div className="agenda-row">
                 <div>2:00 - 2:30 PM</div>
-                <div>Shy Shoham, Director, Tech4Health Institute, NYU Langone</div>
+                <div>
+                  <div>Shy Shoham, Professor of Neroscience and Opthamology, NYU School of Medicine and Tech4Health</div>
+                  <strong>Engineering at the interface: from Neurotech development to Tech4Health</strong>
+                </div>
               </div>
               <div className="agenda-row">
                 <div>2:30 - 3:00 PM</div>
-                <div>Rafael Song, NYUAD</div>
+                <div>
+                  <div>Rafael Song, NYUAD</div>
+                  <strong>Microphysiological Systems for Growing Organs and Organoids</strong>
+                </div>
               </div>
               <div className="agenda-row">
                 <div>3:00 - 3:30 PM</div>
-                <div>Khalil Ramadi, NYUAD</div>
+                <div>
+                  <div>Khalil Ramadi, NYU Abu Dhabi</div>
+                  <strong>Devices you can eat: Speaking with the body through the gastrointestinal tract</strong>
+                </div>
               </div>
               <div className="agenda-row">
                 <div>3:30 - 4:00 PM</div>
-                <div>Sohmyung Ha, NYUAD</div>
+                <div>
+                  <div>Sefy Paulose Joshi, Assistant Professor of Ophthalmology, NYU Langone</div>
+                  <strong>Under Pressure: The Evolution of Glaucoma Devices</strong>
+                </div>
               </div>
               <div className="agenda-row">
                 <div>4:00 - 4:30 PM</div>
-                <div>Iskender Sahin, NYU Tandon</div>
+                <div>
+                  <div>Iskender Sahin, NYU Tandon</div>
+                  <strong>Computational Study of Gene Therapy into the Retina</strong>
+                </div>
               </div>
               <div className="agenda-row">
-                <div>4:30 - 5:30 PM</div>
-                <div>Reception on the balcony</div>
+                <div>4:30 - 5:00 PM</div>
+                <div>Break</div>
               </div>
               <div className="agenda-row">
-                <div>6:00 - 8:00 PM</div>
-                <div>Dinner</div>
+                <div>5:00 - 6:00 PM</div>
+                <div>
+                  <strong>Bridging the Bedside & the Bench: A MedTech Panel Discussion</strong>
+                  <div>Panelists:</div>
+                  <ul>
+                    <li>Manjool Shah (Michigan)</li>
+                    <li>Shy Shoham (NYU Langone)</li>
+                    <li>Giovanna Guidobonni (Univ. of Maine)</li>
+                    <li>Andreas Hielscher (NYU Tandon)</li>
+                    <li>Sefy Paulose Joshi (NYU Langone)</li>
+                  </ul>
+                  <div>Moderator: Rafael Song (NYU Abu Dhabi)</div>
+                </div>
+              </div>
+              <div className="agenda-row">
+                <div>6:30 - 8:30 PM</div>
+                <div>Dinner at Chez Nous at The Marlton Hotel</div>
               </div>
             </div>
           </motion.div>
