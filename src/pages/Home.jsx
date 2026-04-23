@@ -29,6 +29,7 @@ import AnUltraLowPowerAmplifierLess from "../assets/AnUltraLowPowerAmplifierLess
 import AutomaticSleepStageClassification from "../assets/AutomaticSleepStageClassification.png";
 import A3Dprintedoptogeneticdevice from "../assets/A3Dprintedoptogeneticdevice.jpg";
 import nyHeroImage from "../assets/workshop_ny_header.png"
+import EnhancedEndoscopicInternalDrainage from "../assets/EnhancedEndoscopicInternalDrainage.png";
 
 
 
@@ -165,6 +166,13 @@ const newsItems = [
         subtitle: "An interdisciplinary workshop advancing translational medical devices through microfluidics, modeling, and clinical collaboration, with speakers from with NYU Langone Health, NYU Tandon, NYU Abu Dhabi (NYUAD), Icahn School of Medicine, University of Maine, and University of Michigan",
         image: nyHeroImage, 
         link: "/events/medical-devices-implants-workshop-2026-03-18",
+    },
+    {
+        id: 19,
+        title: "Enhanced Endoscopic Internal Drainage of Gastric Abscess Through Additively Manufactured Stents",
+        subtitle: "Additively Manufactured, Patient-Specific Stents for Improved Gastric Leak Drainage",
+        image: EnhancedEndoscopicInternalDrainage,
+        link: "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adhm.202505860",
     },
 ];
 
