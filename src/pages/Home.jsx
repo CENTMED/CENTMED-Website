@@ -30,6 +30,7 @@ import AutomaticSleepStageClassification from "../assets/AutomaticSleepStageClas
 import A3Dprintedoptogeneticdevice from "../assets/A3Dprintedoptogeneticdevice.jpg";
 import nyHeroImage from "../assets/workshop_ny_header.png"
 import EnhancedEndoscopicInternalDrainage from "../assets/EnhancedEndoscopicInternalDrainage.png";
+import tempTNSRE from  "../assets/tempTNSRE.png";
 
 
 
@@ -168,12 +169,20 @@ const newsItems = [
         link: "/events/medical-devices-implants-workshop-2026-03-18",
     },
     {
-        id: 19,
+        id: 20,
         title: "Enhanced Endoscopic Internal Drainage of Gastric Abscess Through Additively Manufactured Stents",
         subtitle: "Additively Manufactured, Patient-Specific Stents for Improved Gastric Leak Drainage",
         image: EnhancedEndoscopicInternalDrainage,
         link: "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adhm.202505860",
     },
+    {
+        id: 21,
+       title: "A 3D-Printing-Based Optogenetic Neural Stimulator Integrated with Three Neural Recording Channels",
+        subtitle: "3D-Printed Optogenetic Device with Integrated Neural Recording Capability",
+        image: tempTNSRE,
+        link: "", // Add link once its emailed to me
+    }
+
 ];
 
 const Home = () => {
