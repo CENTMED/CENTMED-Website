@@ -32,6 +32,7 @@ import nyHeroImage from "../assets/workshop_ny_header.png"
 import EnhancedEndoscopicInternalDrainage from "../assets/EnhancedEndoscopicInternalDrainage.png";
 import tempTNSRE from  "../assets/tempTNSRE.png";
 import nyu_tech_venture from  "../assets/nyu-tech-venture-2026.png";
+import imgCEJ from  "../assets/imgCEJ.jpg";
 
 
 const newsItems = [
