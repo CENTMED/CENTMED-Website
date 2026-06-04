@@ -177,10 +177,10 @@ const newsItems = [
     },
     {
         id: 21,
-       title: "A 3D-Printing-Based Optogenetic Neural Stimulator Integrated with Three Neural Recording Channels",
-        subtitle: "3D-Printed Optogenetic Device with Integrated Neural Recording Capability",
+        title: "A 3D-Printing-Based Optogenetic Neural Stimulator Integrated with Three Neural Recording Channels",
+        subtitle: "This paper has been accepted for publication in IEEE Transactions on Neural Systems and Rehabilitation Engineering (TNSRE). The work on the 3D-Printed Optogenetic Device with Integrated Neural Recording Capability was supported by CENTMED and developed in collaboration with Professor Hyunjoo Jenny Lee’s lab at KAIST.",
         image: tempTNSRE,
-        link: "", // Add link once its emailed to me
+        link: "https://ieeexplore.ieee.org/document/11506577", 
     },
     {
         id: 22,
@@ -188,6 +188,13 @@ const newsItems = [
         subtitle: "CENTMED is proud to announce that three of its research teams have been selected for the prestigious Spring 2026 NYU Tech Venture Workshop.",
         image: nyu_tech_venture,
         link: "https://entrepreneur.nyu.edu/blog/2026/03/26/meet-the-teams-nyu-tech-venture-workshop-spring-2026-cohort/",
+    },
+    {
+    	id: 23,
+    	title: "3D printing of highly conductive biodegradable hydrogels for flexible electronic devices with sensing and energy storage capabilities",
+    	subtitle: "3D-Printed Conductive Biodegradable Hydrogels for Flexible Sensing and Energy Storage Applications",
+    	image: imgCEJ,
+    	link: "https://doi.org/10.1016/j.cej.2026.177433",
     }
 
 ];
