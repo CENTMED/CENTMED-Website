@@ -33,6 +33,7 @@ import EnhancedEndoscopicInternalDrainage from "../assets/EnhancedEndoscopicInte
 import tempTNSRE from  "../assets/tempTNSRE.png";
 import nyu_tech_venture from  "../assets/nyu-tech-venture-2026.png";
 import imgCEJ from  "../assets/imgCEJ.jpg";
+import investigatorMeetingImage from "../assets/IvestigatorMeeting-Image-Oct-2026.png";
 
 
 const newsItems = [
@@ -196,6 +197,13 @@ const newsItems = [
     	subtitle: "3D-Printed Conductive Biodegradable Hydrogels for Flexible Sensing and Energy Storage Applications",
     	image: imgCEJ,
     	link: "https://doi.org/10.1016/j.cej.2026.177433",
+    },
+    {
+        id: 24,
+        title: "All-Investigator Meeting and Research Showcase Event on October 26, 2026",
+        subtitle: "Bringing together researchers, scholars, and industry partners to spotlight groundbreaking projects and spark cross-disciplinary partnerships.",
+        image: investigatorMeetingImage,
+        link: "/events",
     }
 
 ];
