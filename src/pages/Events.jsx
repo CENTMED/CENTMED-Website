@@ -22,7 +22,6 @@ const eventData = [
         date: "October 26, 2026",
         university: "NYU Abu Dhabi, A6, StartAD Meeting Room",
         image: investigatorMeetingImage,
-        detailsLink: "/events",
     },
     {
         category: "Workshops",
