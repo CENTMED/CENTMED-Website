@@ -26,6 +26,9 @@ import JuanBarajasGamboaImage from "../assets/JuanBarajasGamboa_image.png";
 import AndreImage from "../assets/Andre_image.jpg";
 import NurbergenAitmukhanbetovImage from "../assets/Nurbergen_Aitmukhanbetov_image.jpg";
 import SanzharKakenovImage from "../assets/SanzharKakenov_image.jpg";
+import TheaHayekImage from "../assets/TheaHayekImage.png";
+
+import GroupPhoto from "../assets/2026-CENTMED-GroupPhoto.jpg";
 
 
 const sections = [
@@ -128,12 +131,6 @@ const sections = [
                 photo: VegaImage
             },
             {
-                name: "Abdel-Hameed Dabbour",
-                title: "RESEARCH STAFF",
-                description: "Abdel is a research professional with 10 years of experience in the field of medical devices, 5 of which with implantable devices. Abdel has worked on various devices, such as implantable brain sensors, devices used in ICUs and aortic stents. Abdel has a verifiable history of contributing directly to growth and expansion of several medical device companies in both industry and academia.",
-                photo: AbdelHameedDabbourImage
-            },
-            {
                 name: "Parima Phowarasoontorn",
                 title: "RESEARCH STAFF",
                 description: "Prim is a Research Assistant with a degree in Mechanical Engineering from New York University Abu Dhabi. Her interest lies in the field of medical device technology and additive manufacturing. Prim is designing a medical device with improved fluid drainage efficacy to promote faster healing for post-surgical patients.",
@@ -146,28 +143,22 @@ const sections = [
                 photo: AyoubGliaImage
             },
             {
-                name: "Wael Othman",
-                title: "RESEARCH STAFF",
-                description: "Wael Othman earned his Ph.D. in Mechanical Engineering from New York University in 2023. He is currently a Postdoctoral Research Associate in the Advanced Microfluidics and Microdevices Laboratory (AMMLab) at NYU Abu Dhabi. His research centers on developing systems and methods for tactile sensing in minimally invasive surgery. In addition to his research, he serves as the postdoctoral representative on the Engineering IDBEA Committee and as the Engineering Representative on the Postdoctoral Community Steering Committee. Wael’s work has been recognized with prestigious honors, including the Forbes 30 Under 30 and MIT Innovators Under 35 awards.",
-                photo: WaelOthmanImage
-            },
-             {
                 name: "André Fensterseifer Schmidt",
                 title: "RESEARCH STAFF",
                 description: "André is pursuing the opportunity to do translational research on medical technologies as a Post-Doctoral Associate at CENTMED. His current endeavor is to communicate closely with physicians and apply multi-physics modeling expertise to design and develop innovative medical devices — thus bridging engineering solutions and unmet clinical needs.His background includes fatigue testing of stent-grafts, cardiac mechanics simulation, and modeling of endovascular drug delivery from drug-eluting stents and drug-coated balloons. André has earned a B.Eng. in Mechanical Engineering from the Universidade Federal de Santa Catarina, Brazil, followed by a Ph.D. from the University of Glasgow, United Kingdom.",
                 photo: AndreImage
             },
             {
-                name: "Nurbergen Aitmukhanbetov",
-                title: "RESEARCH STAFF",
-                description: "Nurbergen Aitmukhanbetov holds a Bachelor of Science in Mechanical Engineering from New York University Abu Dhabi. He specialized in Computational Fluid Dynamics (CFD), Finite Element Modeling (FEM), and fluid-structure interaction (FSI) simulations, and medical device design. His current research focuses on developing a next-generation glaucoma drainage implant, using computational analysis and experimental verifications to improve fluid control and optimize surgical procedures and postoperative outcomes. Nurbergen’s broader interests also include application of robotics, AI, and Machine Learning toward biomedical technologies.",
-                photo: NurbergenAitmukhanbetovImage
-            },
-            {
                 name: "Sanzhar Kakenov",
                 title: "RESEARCH STAFF",
                 description: "Sanzhar holds a Bachelor of Science in Biology with a specialization in Brain and Cognitive Science from New York University Abu Dhabi. His research primarily focuses on circadian neurobiology, with an emphasis on the mechanisms underlying rhythmic excitability in mammalian clock neurons within the suprachiasmatic nucleus. He has extensive experience with single-cell RNA sequencing, electrophysiology, and stereotaxic surgeries, complemented by a strong background in RNA transcriptomics, population genomics, and primary cell culture, including work with human umbilical mesenchymal stem cells. Sanzhar has presented his research at several scientific meetings, including the CGSB Symposium XIII, and was awarded the Excellent Presentation Award at the Molecular and Cellular Cognition Conference. At CENTMED, he is part of a collaborative project between the Micro- and Nanoscale Bioengineering Lab and the Laboratory of Neural Systems and Behaviour, where he investigates network phenotypes of Alzheimer’s disease and healthy human brain organoids using spatial scRNA-seq and electrophysiology.",
                 photo: SanzharKakenovImage
+            },
+            {
+                name: "Thea Hayek",
+                title: "RESEARCH STAFF",
+                description: "Thea Hayek holds a Bachelor of Science in Mechanical Engineering from New York University Abu Dhabi. Her work focuses on biomedical device development, combining computational modeling and experimental validation. She is currently working on the development of a minimally invasive glaucoma drainage implant, applying computational simulations and experimental testing to characterize fluid flow and device performance to optimize the implant design and surgical integration.",
+                photo: TheaHayekImage
             },
         ]
     },
@@ -245,6 +236,28 @@ const sections = [
                 description: "Cleveland Clinic Lerner College of Medicine, Cleveland, USA",
             }
         ]
+    },
+    {
+        title: "ALUMNI", people: [
+            {
+                name: "Abdel-Hameed Dabbour",
+                title: "RESEARCH STAFF ALUMNI",
+                // description: "Abdel is a research professional with 10 years of experience in the field of medical devices, 5 of which with implantable devices. Abdel has worked on various devices, such as implantable brain sensors, devices used in ICUs and aortic stents. Abdel has a verifiable history of contributing directly to growth and expansion of several medical device companies in both industry and academia.",
+                photo: AbdelHameedDabbourImage
+            },
+            {
+                name: "Wael Othman",
+                title: "RESEARCH STAFF ALUMNI",
+                // description: "Wael Othman earned his Ph.D. in Mechanical Engineering from New York University in 2023. He is currently a Postdoctoral Research Associate in the Advanced Microfluidics and Microdevices Laboratory (AMMLab) at NYU Abu Dhabi. His research centers on developing systems and methods for tactile sensing in minimally invasive surgery. In addition to his research, he serves as the postdoctoral representative on the Engineering IDBEA Committee and as the Engineering Representative on the Postdoctoral Community Steering Committee. Wael’s work has been recognized with prestigious honors, including the Forbes 30 Under 30 and MIT Innovators Under 35 awards.",
+                photo: WaelOthmanImage
+            },
+            {
+                name: "Nurbergen Aitmukhanbetov",
+                title: "RESEARCH STAFF ALUMNI",
+                // description: "Nurbergen Aitmukhanbetov holds a Bachelor of Science in Mechanical Engineering from New York University Abu Dhabi. He specialized in Computational Fluid Dynamics (CFD), Finite Element Modeling (FEM), and fluid-structure interaction (FSI) simulations, and medical device design. His current research focuses on developing a next-generation glaucoma drainage implant, using computational analysis and experimental verifications to improve fluid control and optimize surgical procedures and postoperative outcomes. Nurbergen’s broader interests also include application of robotics, AI, and Machine Learning toward biomedical technologies.",
+                photo: NurbergenAitmukhanbetovImage
+            },
+        ]
     }
 ];
 
@@ -265,7 +278,25 @@ const People = () => {
     return (
         <div className="people-container">
             <ScrollProgress />
-            <h1 className="people-title">People</h1>
+            <section className="people-hero">
+                <img
+                    src={GroupPhoto}
+                    alt="CENTMED research team"
+                    className="people-hero-image"
+                />
+            
+                <div className="people-hero-overlay"></div>
+            
+                <div className="people-hero-content">
+                    <h1>People</h1>
+                    <p>
+                        Meet the researchers, clinicians, collaborators, and staff behind CENTMED.
+                    </p>
+                </div>
+            </section>
+
+
+            
             {sections.map((section, index) => (
                 <div key={index} className="people-section">
                     <h2
