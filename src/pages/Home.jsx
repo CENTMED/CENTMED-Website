@@ -34,6 +34,8 @@ import tempTNSRE from  "../assets/tempTNSRE.png";
 import nyu_tech_venture from  "../assets/nyu-tech-venture-2026.png";
 import imgCEJ from  "../assets/imgCEJ.jpg";
 import investigatorMeetingImage from "../assets/IvestigatorMeeting-Image-Oct-2026.png";
+import PaulDowneyImage from "../assets/PaulDowneyImage.png";
+
 
 
 const newsItems = [
@@ -204,8 +206,14 @@ const newsItems = [
         subtitle: "Bringing together researchers, scholars, and industry partners to spotlight groundbreaking projects and spark cross-disciplinary partnerships.",
         image: investigatorMeetingImage,
         link: "/events",
-    }
-
+    },
+    {
+        id: 25,
+        title: "Biobanking as a Strategic Enabler of Translational Science",
+        subtitle: "Join Paul Downey, General Manager of Abu Dhabi Biobank (M42), for a CENTMED seminar on November 4, 2026, exploring the role of biobanking in advancing translational science.",
+        image: PaulDowneyImage,
+        link: "/events",
+    },
 ];
 
 const Home = () => {
