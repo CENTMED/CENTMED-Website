@@ -1,5 +1,4 @@
-import React from "react";
-import { motion } from "framer-motion"; // Import motion from framer-motion
+import React, { useState, useEffect } from "react"; 
 import { Link } from "react-router-dom"; // Import for NY Workshop page
 
 import "./Events.css";
