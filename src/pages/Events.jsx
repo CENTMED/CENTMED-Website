@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from "react"; 
-import { Link } from "react-router-dom"; // Import for NY Workshop page
-import { CalendarDays, Users, University, Clock3, MapPin, X} from "lucide-react";
+import React, { useState, useEffect } from "react"; // Changed to use pop-up windows for extra info
 import { motion } from "framer-motion"; // Import motion from framer-motion
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; // Import for NY Workshop page
 
 import "./Events.css";
 import ScrollProgress from "../components/ScrollProgress.jsx";
+import { CalendarDays, Users, University, Clock3, MapPin, X} from "lucide-react";
 
 import AliAsgarBhagatImage from "../assets/AliAsgarBhagat_image.jpg";
 import SamuelTangImage from "../assets/SamuelTang_image.jpg";
